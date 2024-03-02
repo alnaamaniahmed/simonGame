@@ -1,0 +1,59 @@
+/* Sets the background color and text alignment for the entire page */
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+/* Styles the level title with a specific font, size, margin, and color */
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+/* Centers the container block and sets its width */
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* Styles for the game buttons */
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/* Flash effect for game-over state */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Button color styles */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* Style for the pressed button effect */
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
