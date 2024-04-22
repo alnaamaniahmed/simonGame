@@ -62,8 +62,9 @@ function nextSequence() {
 }
 // Plays sound corresponding to button color
 function playSound(name) {
+  console.log("Playing sound:", name);
   var audio = new Audio("sounds/" + name + ".mp3");
-  audio.play();
+  audio.play().catch(e => console.error('Error playing sound:', e));
 }
 // Animates button press
 function animatePress(currentColor) {
